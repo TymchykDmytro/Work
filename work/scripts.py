@@ -1,9 +1,4 @@
-
-
-
 import os
-
-
 libs = {"sqlite3", "requests", "selenium"};
 
 try:
