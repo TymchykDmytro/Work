@@ -13,7 +13,6 @@ time.sleep(5)
 
 driver.find_element(By.XPATH , ("/html/body/div[4]/div[3]/div/div/div/div[6]/div[1]/div/div/div/div[5]/pre[7]/span/span[7]")).click()
 act=ActionChains(driver)
-#act.key_down(Keys.CONTROL).send_keys("a").key_up(Keys.CONTROL).perform()
 act.key_down(Keys.BACK_SPACE).key_up(Keys.BACK_SPACE).perform()
 act.key_down(Keys.BACK_SPACE).key_up(Keys.BACK_SPACE).perform()
 act.key_down(Keys.BACK_SPACE).key_up(Keys.BACK_SPACE).perform()
