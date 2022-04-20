@@ -44,7 +44,7 @@ print("Сума:" + str(sum))
 def test_equal3():
     assert sum < 2000000000, f"Sum must be lower than 2000000000"
 home = Path.home()
-wave_absolute = Path(home,"Desktop","work","test3" ,"chromedriver.exe")
+wave_absolute = Path(home,"Desktop","Work-main","work","test3" ,"chromedriver.exe")
 driver = webdriver.Chrome(wave_absolute)
 driver.get("https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_iframe")
 time.sleep(5)
